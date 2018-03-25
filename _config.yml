@@ -1,0 +1,3 @@
+baseurl: # Please change this to your baseurl. On GitHub Pages it's normally just your repos name, like: /reponame
+exclude: ['README.md']
+permalink: pretty

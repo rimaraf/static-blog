@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Condensed');
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #123145;
+    font-size: 16px;
+}
+
+a {
+    color: #e8eaea;
+}
+
+/* Container - generel text */
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container h2 {
+    color: #e8eaea;
+    text-align: : left;
+}
+
+.container h3 {
+    color: #000000;
+    font-weight: normal;
+}
+
+.container p {
+    color: #e8eaea;
+    max-width: 1010px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.container .post-date {
+    color: #000000;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 50px;
+}
+
+.container .post-title {
+    padding-left: 20px;
+}
+
+.container .post-meta {
+    font-family: 'Open Sans', sans-serif;
+    color: #e8eaea;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-size: 0.8em;
+}
+
+/* Archive-related */
+
+.archive .archive-date {
+    font-size: 0.9em;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.archive table {
+    padding-bottom: 20px;
+}
+
+.archive li {
+    list-style-type: circle;
+    margin-bottom: -10px;
+}
+
+/* Header-related */
+
+header {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 20 0 20 0;
+
+    border-bottom: #000000 1px solid;
+    background-color: #123145;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover {
+    color: #d02427;
+}
+
+header h1 {
+    color: #d02427;
+    margin:0;
+    float: left;
+}
+
+header li {
+    float: right;
+    display: inline;
+}
+
+header nav {
+    float: right;
+}
+
+/* Blinking cursor in the header */
+.cursor {
+    animation: 1.5s blink step-end infinite;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+
+}
+
+@keyframes blink {
+    from, to {
+    color: transparent;
+    }
+    50% 
+    {
+    color: #d02427;
+    }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+    }
+    50% {
+    color: #d02427;
+    }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+    }
+    50% {
+    color: #d02427;
+    }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+    }
+    50% {
+    color: #d02427;
+    }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+    }
+    50% {
+    color: #d02427;
+    }
+}
+
+/* Media Queries - mobile optimization */
+
+@media(max-width: 667px){
+    header h1 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    header nav {
+        float: left;
+    }
+
+    header li {
+        padding:0 8 0 0;
+    }
+
+    header ul {
+        margin:0;
+        padding:0;
+    }
+
+    header {
+        padding-bottom: 5px;
+    }
+
+    header a {
+        padding: 10 10 10 0;
+        font-size: 1.1em;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .container .post-title {
+        padding-left: 20px;
+    }
+
+    .container .post-meta {
+        padding-left: 20px;
+        padding-bottom: 10px; 
+    }
+}
+
+@media(max-width: 375px){
+    header {
+        padding-top: 10px;
+    }
+
+    .container .post-title {
+        padding-left: 0;
+    }
+
+    .container .post-meta {
+        padding-left: 0;
+    }
+
+    .container .post-date, #space-cell {
+        display: none;
+    }
+
+    .archive ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .archive #archive-date {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>blog title</title> <!-- Remember to change this to your own title :-) -->
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div id="blog-title">
+				<h1>c:\blog_title><span class="cursor">_</span></h1> 	<!-- 
+																	And change the title here too. Just remove the span if you don't want the blinking curser
+																	-->
+			</div>
+			{% include nav.html %}
+			<br>
+		</div>
+	</header>
+
+	<section id="content">
+		<div class="container">
+			{{content}}
+		</div>
+	</section>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+	<h2>My latest posts</h2>
+
+	  {% for post in site.posts %}
+	  	<table>
+	  		<tr>
+	  			<td class="post-date">{{post.date| date: "%d _ %b"}}</td>
+	  			<td class="post-title"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></td>
+	  		</tr>
+	  		<tr>
+	  			<td id="space-cell"></td>
+	  			<td class="post-meta">{{post.meta}}</td>
+	  		</tr>
+	  	</table>
+	  {% endfor %}
