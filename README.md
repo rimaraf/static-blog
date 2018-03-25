@@ -1,6 +1,6 @@
 # Static Jekyll based blog
 
-I've stitched together a no nonsense static webpage for blogging. It's based on Jekyll and easy (and free) to host on GitHub Pages. 
+I've stitched together a no nonsense static webpage for blogging. The curser next to the blog title is blinking as a prompt - just for fun. The site is based on Jekyll and easy (and free) to host on GitHub Pages. 
 
 <img src="img/screenshot.png" width="500">
 
