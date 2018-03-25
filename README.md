@@ -2,7 +2,7 @@
 
 I've stitched together a no nonsense static webpage for blogging. It's based on Jekyll and easy (and free) to host on GitHub Pages. 
 
-<img src="img/screenshot.png" style="width:80;"/>
+<img src="img/screenshot.png" width="48">
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
