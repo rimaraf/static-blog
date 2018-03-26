@@ -2,7 +2,7 @@
 
 I've stitched together a no nonsense static webpage for blogging. The cursor symbol next to the blog title is blinking like a prompt - just for fun. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
 
-<img src="img/screenshot.png" width="500">
+<img src="screenshot.png" width="500">
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
