@@ -6,6 +6,14 @@ I've stitched together a no nonsense static webpage for blogging. The cursor sym
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
+### Setup
+
+1. Fork this repo
+
+2. Make a branch called ```gh-pages```
+
+3. Go to Settings. Change the Source under GitHub Pages to gh-pages - and it's live. The link for your blog will show above the Source-setting.
+
 ### How to publish new posts on the blog
 
 1. Write your post in markdown
