@@ -1,6 +1,6 @@
 # Static Jekyll based blog
 
-I've stitched together a no nonsense static webpage for blogging. The cursor symbol next to the blog title is blinking like a prompt - just for fun. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
+I've stitched together a no nonsense static webpage for blogging. The cursor symbol next to the blog title is blinking like a prompt - just for fun. The site is based on Jekyll and easy (and free) to host on GitHub Pages. It also adapts to smaller screens.
 
 <img src="screenshot.png" width="500">
 
