@@ -10,7 +10,7 @@ The cursor symbol next to the blog title is blinking like a prompt - just for fu
 
 It also adapts to smaller screens. Here on a 4.7" iPhone:
 
-<img src="ios_screenshot.png" width="200">  <img src="ios_screen_post.png" width="200">
+<img src="ios_screenshot.png" heigth="400">  <img src="ios_screen_post.png" heigth="400">
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
