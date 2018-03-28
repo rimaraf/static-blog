@@ -1,20 +1,13 @@
 # Static Jekyll based blog
 
 I've stitched together a no nonsense static webpage for blogging. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
+<img src="screenshot.png" width="500">
 
-| <img src="screenshot.png" width="500"> |
-|:--:|
-| Home page on desktop. |
+It also adapts to smaller screens. Here on an 4.7" iPhone:
+<img src="ios_screenshot.png" height="400">  <img src="ios_screen_post.png" height="400">
 
-| <img src="promp_blink.gif" width="200"> |
-|:--:|
-| *The cursor symbol next to the blog title is blinking like a prompt - just for fun.* |
-
-| <img src="ios_screenshot.png" height="400">  <img src="ios_screen_post.png" height="400"> |
-|:--:|
-| *It also adapts to smaller screens. Here on a 4.7" iPhone* |
-
-Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
+And the cursor symbol next to the blog title is blinking like a prompt - just for fun.
+<img src="promp_blink.gif" width="200">
 
 ### Setup
 
@@ -22,7 +15,9 @@ Remenber to change the baseurl in the config.yml file and to insert your blog ti
 
 2. Make a branch called ```gh-pages```
 
-3. Go to Settings. Change the Source under GitHub Pages to gh-pages - and it's live. The link for your blog will show above the Source-setting.
+3. Change the baseurl in the ```config.yml``` file (the name of your repo) and insert your blog title in the ```default.html``` file.
+
+4. Go to Settings. Change the Source under GitHub Pages to gh-pages - and it's live. The link for your blog will show above the Source-setting.
 
 ### How to publish new posts on the blog
 
