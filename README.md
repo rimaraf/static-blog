@@ -6,11 +6,12 @@ I've stitched together a no nonsense static webpage for blogging. The site is ba
 
 The cursor symbol next to the blog title is blinking like a prompt - just for fun.
 
-<img src="promp_blink.gif">
+<img src="promp_blink.gif" width="200">
 
 It also adapts to smaller screens. Here on a 4.7" iPhone:
 
 <img src="ios_screenshot.png" width="200">
+<img src="ios_screen_post.png" width="200">
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
