@@ -1,3 +1,3 @@
 baseurl: # Please insert your baseurl. On GitHub Pages it's normally just your repos name, like: /reponame
-exclude: ['README.md', 'screenshot.png', 'ios_screenshot.png']
+exclude: ['README.md', 'screenshot.png', 'ios_screenshot.png', 'ios_screen_post.png, 'promp_blink.gif']
 permalink: pretty
