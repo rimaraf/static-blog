@@ -2,16 +2,17 @@
 
 I've stitched together a no nonsense static webpage for blogging. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
 
-<img src="screenshot.png" width="500">
+| <img src="screenshot.png" width="500"> |
+|:--:|
+| Home page on desktop. |
 
-<figure>
-  <img src="promp_blink.gif" width="200">
-  <figcaption>The cursor symbol next to the blog title is blinking like a prompt - just for fun.</figcaption>
-</figure>
+| <img src="promp_blink.gif" width="200"> |
+|:--:|
+| *The cursor symbol next to the blog title is blinking like a prompt - just for fun.* |
 
-It also adapts to smaller screens. Here on a 4.7" iPhone:
-
-<img src="ios_screenshot.png" height="400">  <img src="ios_screen_post.png" height="400">
+| <img src="ios_screenshot.png" height="400">  <img src="ios_screen_post.png" height="400"> |
+|:--:|
+| *It also adapts to smaller screens. Here on a 4.7" iPhone* |
 
 Remenber to change the baseurl in the config.yml file and to insert your blog title in the default.html file.
 
