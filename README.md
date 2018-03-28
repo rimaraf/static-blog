@@ -39,7 +39,7 @@ in the very top of the document
 
 3. Save your post as a md-file with this naming convention:
 ```md
-yyyy-md-dd-post-title-seperated-by-minuses.md
+yyyy-mm-dd-post-title-seperated-by-minuses.md
 ```
 
 4. Put the file in the posts folder - and it's live!
