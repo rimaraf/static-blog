@@ -1,12 +1,15 @@
 # Static Jekyll based blog
 
 I've stitched together a no nonsense static webpage for blogging. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
+
 <img src="screenshot.png" width="500">
 
 It also adapts to smaller screens. Here on an 4.7" iPhone:
+
 <img src="ios_screenshot.png" height="400">  <img src="ios_screen_post.png" height="400">
 
 And the cursor symbol next to the blog title is blinking like a prompt - just for fun.
+
 <img src="promp_blink.gif" width="200">
 
 ### Setup
