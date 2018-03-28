@@ -4,9 +4,10 @@ I've stitched together a no nonsense static webpage for blogging. The site is ba
 
 <img src="screenshot.png" width="500">
 
-The cursor symbol next to the blog title is blinking like a prompt - just for fun.
-
-<img src="promp_blink.gif" width="200">
+<figure>
+  <img src="promp_blink.gif" width="200">
+  <figcaption>The cursor symbol next to the blog title is blinking like a prompt - just for fun.</figcaption>
+</figure>
 
 It also adapts to smaller screens. Here on a 4.7" iPhone:
 
