@@ -1,6 +1,6 @@
 # Static Jekyll based blog
 
-I've stitched together a no nonsense static webpage for blogging. The site is based on Jekyll and easy (and free) to host on GitHub Pages.
+I wanted to take a look at the field of static website generators since a) I knew nothing about it and b) it sounded like an interesting simple solution for a future blog/portfolio. I chose play around with the Jekyll-generator (since it’s also easy and free to host on GitHub Pages). This no nonsense webpage for blogging was the result of my short time testing. Even if it's "only" static webpages, Jekyll is really is cool and quite powerfull if you dive further into it.
 
 <img src="screenshot.png" width="500">
 
